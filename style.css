@@ -15,9 +15,9 @@
 } */
 
 /* shard style */
-main>section{
-    margin-bottom: 130px;
+main > section {
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
  .body-size{
@@ -113,6 +113,58 @@ main>section{
 }
 
 
+/* enjoy style */
+.enjoy-image img{
+    width: 100%;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: -80px;
+    margin-top: -120px;
+}
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.enjoy-features{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    gap: 120px;
+}
+    
+
+.enjoy-title{
+    border-left:5px solid #FF900E;
+    padding-left:20px ;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #131313;
+}
+.enjoy-text , .feature-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+.feature-title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.feature-card{
+    margin-bottom: 20px ;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+
 /* some facts related style */
 
  .fact{
@@ -183,7 +235,7 @@ main>section{
  @media screen and (max-width: 576px) {
      .navbar , 
      .nav-links,
-     .teams{
+     .teams,.enjoy-features{
         flex-direction: column;
         
      }
@@ -206,11 +258,15 @@ main>section{
         justify-items: center;
         gap: 50px;
      }
-    
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+        /* display: none; */
+    }
  }
 
  @media screen and (min-width:576px) and (max-width: 992px) {
-     .teams{
+     .teams,.enjoy-features{
         flex-direction: column;
      }
      .our-features{
@@ -222,4 +278,9 @@ main>section{
         justify-items: center;
         
      }
+      #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+        /* display: none; */
+    }
  }
