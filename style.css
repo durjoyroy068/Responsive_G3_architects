@@ -8,13 +8,15 @@
   font-style: normal;
 }
 
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 /* shard style */
+ 
+
 main > section {
     margin-top: 130px;
     margin-bottom: 130px;
@@ -52,6 +54,8 @@ main > section {
 .navbar{
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0px;
+     
 }
 .brand{
     color: #131313;
